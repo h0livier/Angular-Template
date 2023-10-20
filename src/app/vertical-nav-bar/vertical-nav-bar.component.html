@@ -1,0 +1,12 @@
+<nav class="h-100 d-flex justify-content-between flex-column">
+    <ul class="p-0 m-0">
+        <li class="px-3 py-2 rounded my-2" *ngFor="let item of items">
+            <a href="{{item.destination}}" class="d-flex align-items-center">
+                <p class="my-1 mx-0 d-flex align-items-center justify-content-center">
+                    <i class="{{item.logo}} mr-5 align-top"></i>
+                    <span class="mx-3 p-0">{{item.value}}</span>
+                </p>
+            </a>
+        </li>
+    </ul>
+</nav>

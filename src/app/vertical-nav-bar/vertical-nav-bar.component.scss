@@ -1,0 +1,18 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    background-color: #404040;
+}
+
+li:hover{
+    background-color: #525252;
+}
+
+.autogrow{
+    display: flex;
+    flex-grow: 1;
+}
